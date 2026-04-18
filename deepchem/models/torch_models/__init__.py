@@ -52,6 +52,7 @@ from deepchem.models.torch_models.hnn import HNN, HNNModel
 from deepchem.models.torch_models.chemception import ChemCeptionLayer, ChemCeption
 from deepchem.models.torch_models.fno import FNO, FNOModel
 from deepchem.models.torch_models.lnn import LNN, LNNModel
+from deepchem.models.torch_models.rfdiffusion import DeepChemSE3StructureModule, IterativeSimulator, RFDiffusion, RFDiffusionBatch, RFDiffusionModel, RFInputEmbedding, Str2Str, build_rfdiffusion_dataset
 
 try:
     from deepchem.models.torch_models.dmpnn import DMPNN, DMPNNModel
